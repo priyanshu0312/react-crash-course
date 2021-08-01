@@ -3,6 +3,7 @@ import "./style.css";
 import Menu from "./menuApi";
 import MenuCard from "./MenuCard";
 import Navbar from "./Navbar";
+import Header from "../../Header";
 
 const uniqueList = [
   ...new Set(
@@ -29,6 +30,7 @@ const Restaurant = () => {
   };
   return (
     <>
+     {/* <Header/> */}
       <Navbar filterItem={filterItem} menuList={menuList} />
       <MenuCard menuData={menuData} />
     </>

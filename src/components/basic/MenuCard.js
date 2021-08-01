@@ -5,7 +5,7 @@ const MenuCard = ({ menuData }) => {
 
   return (
     <div>
-      <section className="main-card--cointainer">
+      <div className="main-card--cointainer">
         {menuData.map((curElem) => {
           const { id, name, description, category, image } = curElem;
           return (
@@ -28,7 +28,7 @@ const MenuCard = ({ menuData }) => {
             </>
           );
         })}
-      </section>
+      </div>
     </div>
   );
 };
