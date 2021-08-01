@@ -7,7 +7,7 @@ const Header = () => {
       <div id="fixed-social">
         <div>
           <Link to="/restaurant" class="fixed-facebook">
-           <span>Facebook</span>
+           <span>Restaurant</span>
           </Link>
         </div>
         <div>
@@ -26,8 +26,8 @@ const Header = () => {
           </Link>
         </div>
         <div>
-          <Link to="#" class="fixed-instagrem">
-            <i class="fa fa-instagram"></i> <span>Instagram</span>
+          <Link to="/todo_app" class="fixed-instagrem">
+          <span>TodoApp</span>
           </Link>
         </div>
         <div>
