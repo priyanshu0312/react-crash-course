@@ -11,7 +11,7 @@ function UseState() {
         <section>
           <h2 style={{color:'white'}}>useState Hook</h2>
           <div className="center_div">
-            <p>{count}</p>
+            <p className="pname">{count}</p>
             <div className="button2" onClick={() => setCount(count + 1)}>
               <span></span>
               <span></span>

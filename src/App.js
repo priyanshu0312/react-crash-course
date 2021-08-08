@@ -6,13 +6,14 @@ import Header from "./Header";
 import UseReducer from "./components/Hooks/useReducer";
 import TodoApp from "./components/ReactTodo/TodoApp";
 import "./App.css";
+import Temperature from "./components/Weather/Temperature";
 
 function App() {
   return (
     <>
       <Router>
         <div>
-          <Header />
+          {/* <Header /> */}
         </div>
         <Switch>
           <Route exact path="/restaurant" component={Header} />
@@ -21,6 +22,7 @@ function App() {
           <Route path="/useEffect" component={UseEffect} />
           <Route path="/useReducer" component={UseReducer} />
           <Route exact path="/todo_app" component={TodoApp} />
+          <Route path ="/weather_app" component={Temperature} />
         </Switch>
       </Router>
     </>

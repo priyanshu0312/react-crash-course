@@ -26,7 +26,7 @@ const UseReducer = () => {
       <section>
       <h2 style={{color:'white'}}>useReducer Hook</h2>
         <div className="center_div">
-          <p>{state}</p>
+          <p className="pname">{state}</p>
           <div class="button2" onClick={() => dispatch({ type: "INCR" })}>
             <span></span>
             <span></span>
